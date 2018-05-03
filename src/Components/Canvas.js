@@ -13,6 +13,7 @@ export default class Canvas extends Component {
     updateCanvas(){
         let canvas = this.refs.canvas;
         let ctx = canvas.getContext('2d');
+        ctx.globalAlpha = 1;
         ctx.fillStyle = 'white';
         ctx.fillRect(0, 0, this.props.width, this.props.height);
 
