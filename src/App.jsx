@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
-import Canvas from './Components/Canvas';
+import Canvas from './components/Canvas';
 import './App.css';
+import { MuiColorInput } from 'mui-color-input';
 
 function App() {
   const [width, setWidth] = useState(700);
